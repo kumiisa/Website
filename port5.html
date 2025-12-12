@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motherboard Types - Interactive Guide</title>
+    <link rel="stylesheet" href="port5.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>🖥️ MOTHERBOARD TYPES</h1>
+        <p class="subtitle">
+          CIS 1102 - Introduction To Computing | BSIT 1-A2 Portfolio #5
+        </p>
+      </header>
+
+      <nav>
+        <div class="nav-grid">
+          <button class="nav-btn" onclick="scrollToSection('objectives')">
+            Learning Objectives
+          </button>
+          <button class="nav-btn" onclick="scrollToSection('definition')">
+            What is a Motherboard?
+          </button>
+          <button class="nav-btn" onclick="scrollToSection('classifications')">
+            Classifications
+          </button>
+          <button class="nav-btn" onclick="scrollToSection('legacy')">
+            Legacy Types
+          </button>
+          <button class="nav-btn" onclick="scrollToSection('modern')">
+            Modern Types
+          </button>
+          <button class="nav-btn" onclick="scrollToSection('sff')">
+            SFF Types
+          </button>
+          <button class="nav-btn" onclick="scrollToSection('comparison')">
+            Comparison Table
+          </button>
+        </div>
+      </nav>
+
+      <section id="objectives" class="section">
+        <h2>Learning Objectives</h2>
+        <div class="objectives-grid">
+          <div class="objective-card">
+            <div class="objective-number">01</div>
+            <p>To identify and compare different types of motherboard</p>
+          </div>
+          <div class="objective-card">
+            <div class="objective-number">02</div>
+            <p>To analyze which motherboard suits specific computer needs</p>
+          </div>
+          <div class="objective-card">
+            <div class="objective-number">03</div>
+            <p>To understand their physical build and technical features</p>
+          </div>
+          <div class="objective-card">
+            <div class="objective-number">04</div>
+            <p>
+              To evaluate the advantages and limitations of each motherboard
+              type
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="definition" class="section">
+        <h2>What is a Motherboard?</h2>
+        <div class="definition-box">
+          <p>
+            <strong
+              >A motherboard is the main circuit board in a computer
+              system.</strong
+            >
+            It connects all of the internal components, like the memory,
+            processor, graphics card and other hardware. It also provides power
+            to each component and allows them to communicate with each other.
+          </p>
+          <br />
+          <p>
+            The motherboard is essentially responsible for connecting all the
+            different components inside of a computer together. It has
+            connectors for just about every type of component, from RAM to USB
+            ports.
+          </p>
+        </div>
+
+        <h3>Why is it Important?</h3>
+        <p style="margin-top: 20px; line-height: 1.8">
+          The motherboard is one of the most important components of a computer
+          because it acts as the main hub that connects and enables
+          communication between all other hardware parts such as the CPU,
+          memory, storage devices, and expansion cards. It provides the
+          necessary circuits and slots that allow these components to exchange
+          data and power efficiently, ensuring the entire system functions
+          smoothly as one unit.
+        </p>
+        <br />
+        <p style="line-height: 1.8">
+          Moreover, the motherboard determines the compatibility, performance,
+          and upgrade potential of a computer. Its design, chipset, and
+          supported interfaces influence what type of processor, RAM, and
+          peripherals can be installed.
+        </p>
+      </section>
+
+      <section id="classifications" class="section">
+        <h2>Classifications of Motherboards</h2>
+        <div class="classification-container">
+          <div class="classification-box legacy">
+            <h3>Legacy</h3>
+            <p>
+              Legacy motherboards refer to older or outdated designs that were
+              used in early computers before modern standards were developed.
+              They are the earlier generations that paved the way for today's
+              modern designs.
+            </p>
+          </div>
+          <div class="classification-box modern">
+            <h3>Modern</h3>
+            <p>
+              Modern motherboards are the current, up-to-date models used in
+              today's computers. They support the latest processors, memory
+              types, and interfaces, offering advanced features and better
+              performance.
+            </p>
+          </div>
+          <div class="classification-box sff">
+            <h3>SFF (Small Form Factor)</h3>
+            <p>
+              SFF motherboards are a subcategory of modern motherboards designed
+              to be smaller and more compact. They're perfect for small PCs or
+              portable systems.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="legacy" class="section">
+        <h2>Types of Legacy Motherboards</h2>
+        <div class="mobo-types">
+          <div class="mobo-card">
+            <h4>AT Motherboard</h4>
+            <ul>
+              <li>Introduced by IBM in the 1980s</li>
+              <li>Very large in size</li>
+              <li>Lacked modern features like USB ports</li>
+              <li>Replaced due to poor cable management</li>
+              <li>Compatibility issues led to discontinuation</li>
+            </ul>
+          </div>
+          <div class="mobo-card">
+            <h4>LPX Motherboard</h4>
+            <ul>
+              <li>Designed for slim desktop cases</li>
+              <li>Featured a riser card for expansion slots</li>
+              <li>Allowed horizontal placement</li>
+              <li>Had poor cooling</li>
+              <li>Limited upgrade options</li>
+            </ul>
+          </div>
+          <div class="mobo-card">
+            <h4>BTX Motherboard</h4>
+            <ul>
+              <li>Developed by Intel in early 2000s</li>
+              <li>Improved airflow and system cooling</li>
+              <li>Aimed to replace ATX</li>
+              <li>Failed to gain popularity</li>
+              <li>Eventually discontinued</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="modern" class="section">
+        <h2>Types of Modern Motherboards</h2>
+        <div class="mobo-types">
+          <div class="mobo-card">
+            <h4>Standard-ATX Motherboard</h4>
+            <ul>
+              <li>The baseline version of the ATX family</li>
+              <li>Supports standard components</li>
+              <li>Commonly found in prebuilt desktops</li>
+              <li>Perfect for custom setups</li>
+              <li>Most popular form factor</li>
+            </ul>
+          </div>
+          <div class="mobo-card">
+            <h4>Mini-ATX Motherboard</h4>
+            <ul>
+              <li>Compact version</li>
+              <li>Between Micro-ATX and Mini-ITX in size</li>
+              <li>Designed for small cases</li>
+              <li>Allows moderate expandability</li>
+              <li>Not as widely used</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="sff" class="section">
+        <h2>Types of SFF Motherboards</h2>
+        <div class="mobo-types">
+          <div class="mobo-card">
+            <h4>Mini ITX Motherboard</h4>
+            <ul>
+              <li>Very compact design (17×17 cm)</li>
+              <li>Ideal for small PCs and HTPCs</li>
+              <li>Perfect for minimalist setups</li>
+              <li>Limited expansion slots</li>
+              <li>Power-efficient and quiet</li>
+            </ul>
+          </div>
+          <div class="mobo-card">
+            <h4>Pico BTX Motherboard</h4>
+            <ul>
+              <li>Smaller version of BTX</li>
+              <li>Meant for compact systems</li>
+              <li>Offers good cooling in tight spaces</li>
+              <li>Rarely used today</li>
+              <li>ATX and Mini ITX are more popular</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="comparison" class="section">
+        <h2>Comparison Table</h2>
+        <div style="overflow-x: auto">
+          <table>
+            <thead>
+              <tr>
+                <th>Type</th>
+                <th>Size</th>
+                <th>Expansion Slots</th>
+                <th>Use Case</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>AT</strong></td>
+                <td>Large (12" × 13.8")</td>
+                <td>Multiple ISA slots</td>
+                <td>Legacy desktop PCs</td>
+                <td>Obsolete</td>
+              </tr>
+              <tr>
+                <td><strong>LPX</strong></td>
+                <td>Varies (slim)</td>
+                <td>Riser card design</td>
+                <td>Slim desktop cases</td>
+                <td>Discontinued</td>
+              </tr>
+              <tr>
+                <td><strong>BTX</strong></td>
+                <td>Standard BTX</td>
+                <td>3-7 slots</td>
+                <td>Improved cooling systems</td>
+                <td>Discontinued</td>
+              </tr>
+              <tr>
+                <td><strong>Standard-ATX</strong></td>
+                <td>12" × 9.6"</td>
+                <td>4-7 PCIe slots</td>
+                <td>General purpose, gaming</td>
+                <td>Active</td>
+              </tr>
+              <tr>
+                <td><strong>Mini-ATX</strong></td>
+                <td>11.2" × 8.2"</td>
+                <td>3-4 slots</td>
+                <td>Compact builds</td>
+                <td>Active</td>
+              </tr>
+              <tr>
+                <td><strong>Mini ITX</strong></td>
+                <td>6.7" × 6.7"</td>
+                <td>1 PCIe slot</td>
+                <td>Small PCs, HTPCs</td>
+                <td>Active</td>
+              </tr>
+              <tr>
+                <td><strong>Pico BTX</strong></td>
+                <td>8" × 10.5"</td>
+                <td>1-2 slots</td>
+                <td>Ultra-compact systems</td>
+                <td>Rare</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+
+    <div class="back-to-top" onclick="scrollToTop()">↑</div>
+
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+            }
+          });
+        },
+        { threshold: 0.1 }
+      );
+
+      document.querySelectorAll(".section").forEach((section) => {
+        observer.observe(section);
+      });
+
+      function scrollToSection(id) {
+        document.getElementById(id).scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+
+      const backToTop = document.querySelector(".back-to-top");
+      window.addEventListener("scroll", () => {
+        if (window.pageYOffset > 300) {
+          backToTop.classList.add("visible");
+        } else {
+          backToTop.classList.remove("visible");
+        }
+      });
+
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+  </body>
+</html>

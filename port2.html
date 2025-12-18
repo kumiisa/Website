@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data & Information Systems Interactive Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-icon">
+            <svg
+              width="64"
+              height="64"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+              <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+              <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+            </svg>
+          </div>
+          <h1>Data & Information Systems</h1>
+          <p>
+            Explore the foundations of data, information, and the systems that
+            transform raw facts into actionable insights
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <nav class="tab-nav">
+      <div class="container">
+        <div class="tabs">
+          <button class="tab-button active" onclick="showTab('data-info')">
+            Data vs Information
+          </button>
+          <button class="tab-button" onclick="showTab('is-overview')">
+            Information Systems
+          </button>
+          <button class="tab-button" onclick="showTab('systems')">
+            Support Systems
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <div id="data-info" class="tab-content active">
+        <div class="grid-2">
+          <div class="card">
+            <div class="card-header">
+              <svg
+                class="icon"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+              <h2>Data</h2>
+            </div>
+            <p>
+              Raw, unorganized facts that lack context or inherent meaning on
+              their own. These can include numbers, symbols, text, observations,
+              or images.
+            </p>
+            <ul class="feature-list">
+              <li>Low-level knowledge measured in bits and bytes</li>
+              <li>
+                Can be quantitative (numeric) or qualitative (descriptive)
+              </li>
+              <li>Not directly useful until processed</li>
+            </ul>
+            <div class="example-box blue">
+              <strong>Example:</strong> Individual student test scores: 85, 92,
+              78, 88
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <svg
+                class="icon green"
+                width="32"
+                height="32"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <h2>Information</h2>
+            </div>
+            <p>
+              The result of processing and organizing data into a meaningful
+              form. It adds context and structure to data, transforming it into
+              something useful.
+            </p>
+            <ul class="feature-list">
+              <li>Adds context and meaning to raw data</li>
+              <li>Supports analysis and decision-making</li>
+              <li>Presented in interpretable formats</li>
+            </ul>
+            <div class="example-box green">
+              <strong>Example:</strong> The class average is 85.75, showing
+              strong performance
+            </div>
+          </div>
+        </div>
+
+        <div class="card highlight-card">
+          <h3>Key Differences</h3>
+          <div class="grid-3">
+            <div>
+              <h4>Purpose</h4>
+              <p>
+                Data is independent and unprocessed, while information is
+                dependent on data and structured to convey meaning
+              </p>
+            </div>
+            <div>
+              <h4>Context</h4>
+              <p>
+                Data lacks context (e.g., "10"), while information provides it
+                (e.g., "The temperature is 10°C today")
+              </p>
+            </div>
+            <div>
+              <h4>Usability</h4>
+              <p>
+                Data doesn't directly aid decisions, while information is
+                specifically used to support decision-making
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="is-overview" class="tab-content">
+        <div class="card">
+          <h2>What is an Information System?</h2>
+          <p class="lead">
+            An information system is an integrated set of components designed to
+            collect, process, store, and distribute data and information. These
+            systems support decision-making, coordination, and control within
+            organizations.
+          </p>
+
+          <div class="grid-3 component-grid">
+            <div class="component-card blue">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="3"></circle>
+                <path
+                  d="M12 1v6m0 6v6m5.2-14.8l-4.2 4.2m0 6l-4.2 4.2m14.8-10.2l-6 0m-6 0l-6 0m14.8 5.2l-4.2-4.2m0-6l-4.2-4.2"
+                ></path>
+              </svg>
+              <h3>Hardware</h3>
+              <p>Physical devices and equipment</p>
+            </div>
+            <div class="component-card purple">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+              </svg>
+              <h3>Software</h3>
+              <p>Programs and applications</p>
+            </div>
+            <div class="component-card green">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+              <h3>Databases</h3>
+              <p>Organized data storage</p>
+            </div>
+            <div class="component-card orange">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <polygon
+                  points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+                ></polygon>
+              </svg>
+              <h3>Networks</h3>
+              <p>Telecommunications infrastructure</p>
+            </div>
+            <div class="component-card pink">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+              <h3>People</h3>
+              <p>Human resources and expertise</p>
+            </div>
+            <div class="component-card teal">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                ></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+              <h3>Procedures</h3>
+              <p>Defined processes and workflows</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card highlight-card purple">
+          <h3>Purpose & Importance</h3>
+          <div class="importance-list">
+            <div class="importance-item">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+              <div>
+                <h4>Streamline Workflows</h4>
+                <p>
+                  Essential tools for optimizing daily operations and supporting
+                  strategic planning
+                </p>
+              </div>
+            </div>
+            <div class="importance-item">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+              <div>
+                <h4>Analyze Data</h4>
+                <p>
+                  Present insights in a structured way to support impactful
+                  decision-making
+                </p>
+              </div>
+            </div>
+            <div class="importance-item">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              </svg>
+              <div>
+                <h4>Drive Innovation</h4>
+                <p>
+                  Enable companies to forecast trends, improve customer service,
+                  and adapt to market demands
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card highlight-card orange">
+          <h3>Human & Ethical Aspects</h3>
+          <p>
+            While technology plays a critical role, people and ethical
+            considerations are equally important. Professionals must understand
+            not only how to design and operate these systems but also assess
+            their impact on society, privacy, and user behavior.
+          </p>
+          <p>
+            The effective use of information systems requires collaboration
+            between people and machines, with careful attention to how data is
+            gathered, interpreted, and used responsibly.
+          </p>
+        </div>
+      </div>
+
+      <div id="systems" class="tab-content">
+        <div class="section-header">
+          <h2>Types of Support Systems</h2>
+          <p>
+            Click on any system to learn more about its features and
+            applications
+          </p>
+        </div>
+
+        <div class="systems-grid">
+          <div class="system-card" onclick="toggleSystem(this)">
+            <div class="system-header blue">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="9" cy="21" r="1"></circle>
+                <circle cx="20" cy="21" r="1"></circle>
+                <path
+                  d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"
+                ></path>
+              </svg>
+              <h3>Transaction Processing Systems (TPS)</h3>
+              <span class="arrow">▼</span>
+            </div>
+            <p>
+              Handle routine, high-volume business transactions quickly and
+              accurately
+            </p>
+            <div class="system-details">
+              <div class="detail-item">
+                <strong>Users:</strong> Operational-level employees and managers
+              </div>
+              <div class="detail-item">
+                <strong>Examples:</strong> Point-of-sale systems, payroll
+                processing, order entry, inventory management
+              </div>
+              <div class="detail-item">
+                <strong>Key Features:</strong> Real-time or batch processing;
+                updates databases; ensures data integrity
+              </div>
+            </div>
+          </div>
+
+          <div class="system-card" onclick="toggleSystem(this)">
+            <div class="system-header green">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"
+                ></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+              </svg>
+              <h3>Office Automation Systems (OAS)</h3>
+              <span class="arrow">▼</span>
+            </div>
+            <p>Automate routine office tasks and support communication</p>
+            <div class="system-details">
+              <div class="detail-item">
+                <strong>Users:</strong> Clerical staff, administrative workers,
+                all employees
+              </div>
+              <div class="detail-item">
+                <strong>Examples:</strong> Microsoft Office Suite, email
+                systems, word processors, document management
+              </div>
+              <div class="detail-item">
+                <strong>Key Features:</strong> Increases productivity and
+                supports documentation, communication, scheduling
+              </div>
+            </div>
+          </div>
+
+          <div class="system-card" onclick="toggleSystem(this)">
+            <div class="system-header purple">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+              </svg>
+              <h3>Knowledge Work Systems (KWS)</h3>
+              <span class="arrow">▼</span>
+            </div>
+            <p>Facilitate creation and sharing of new knowledge</p>
+            <div class="system-details">
+              <div class="detail-item">
+                <strong>Users:</strong> Engineers, designers, analysts,
+                researchers
+              </div>
+              <div class="detail-item">
+                <strong>Examples:</strong> CAD, virtual reality systems,
+                financial modeling workstations
+              </div>
+              <div class="detail-item">
+                <strong>Key Features:</strong> Support innovation, design,
+                research, and development activities
+              </div>
+            </div>
+          </div>
+
+          <div class="system-card" onclick="toggleSystem(this)">
+            <div class="system-header orange">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect>
+                <polyline points="17 2 12 7 7 2"></polyline>
+              </svg>
+              <h3>Process Control Systems</h3>
+              <span class="arrow">▼</span>
+            </div>
+            <p>
+              Monitor and control physical processes in industrial environments
+            </p>
+            <div class="system-details">
+              <div class="detail-item">
+                <strong>Users:</strong> Operational and industrial managers
+              </div>
+              <div class="detail-item">
+                <strong>Examples:</strong> Assembly lines, petroleum refineries,
+                food production controls
+              </div>
+              <div class="detail-item">
+                <strong>Key Features:</strong> Automate and improve accuracy in
+                manufacturing and production
+              </div>
+            </div>
+          </div>
+
+          <div class="system-card" onclick="toggleSystem(this)">
+            <div class="system-header indigo">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+              <h3>Management Information Systems (MIS)</h3>
+              <span class="arrow">▼</span>
+            </div>
+            <p>Convert data from TPS into meaningful, structured reports</p>
+            <div class="system-details">
+              <div class="detail-item">
+                <strong>Users:</strong> Middle managers and departmental heads
+              </div>
+              <div class="detail-item">
+                <strong>Examples:</strong> HR systems, inventory reports,
+                budgeting systems, sales analysis
+              </div>
+              <div class="detail-item">
+                <strong>Key Features:</strong> Monitor performance, track
+                operations, assist in tactical decision-making
+              </div>
+            </div>
+          </div>
+
+          <div class="system-card" onclick="toggleSystem(this)">
+            <div class="system-header red">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+                <polyline points="17 6 23 6 23 12"></polyline>
+              </svg>
+              <h3>Decision Support Systems (DSS)</h3>
+              <span class="arrow">▼</span>
+            </div>
+            <p>Analyze complex data sets for non-routine decision-making</p>
+            <div class="system-details">
+              <div class="detail-item">
+                <strong>Users:</strong> Middle and senior managers, analysts
+              </div>
+              <div class="detail-item">
+                <strong>Examples:</strong> Financial forecasting, logistics
+                planning, "what-if" analysis platforms
+              </div>
+              <div class="detail-item">
+                <strong>Key Features:</strong> Interactive tools, simulations,
+                and models to guide decisions
+              </div>
+            </div>
+          </div>
+
+          <div class="system-card" onclick="toggleSystem(this)">
+            <div class="system-header pink">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="3" y="3" width="7" height="7"></rect>
+                <rect x="14" y="3" width="7" height="7"></rect>
+                <rect x="14" y="14" width="7" height="7"></rect>
+                <rect x="3" y="14" width="7" height="7"></rect>
+              </svg>
+              <h3>Executive Support Systems (ESS)</h3>
+              <span class="arrow">▼</span>
+            </div>
+            <p>Provide senior executives with strategic-level insights</p>
+            <div class="system-details">
+              <div class="detail-item">
+                <strong>Users:</strong> C-level executives (CEO, CFO, CIO)
+              </div>
+              <div class="detail-item">
+                <strong>Examples:</strong> Real-time dashboards showing KPIs,
+                market trends, risk analysis
+              </div>
+              <div class="detail-item">
+                <strong>Key Features:</strong> Facilitate strategic planning and
+                high-level decision-making
+              </div>
+            </div>
+          </div>
+
+          <div class="system-card" onclick="toggleSystem(this)">
+            <div class="system-header teal">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M12 1v6m0 6v6"></path>
+                <path
+                  d="m4.2 4.2 4.2 4.2m6 6 4.2 4.2m-14.8-5.2h6m6 0h6m-14.8 5.2 4.2-4.2m6-6 4.2-4.2"
+                ></path>
+              </svg>
+              <h3>Enterprise Resource Planning (ERP)</h3>
+              <span class="arrow">▼</span>
+            </div>
+            <p>Integrate core business processes across departments</p>
+            <div class="system-details">
+              <div class="detail-item">
+                <strong>Users:</strong> Organization-wide (finance, HR,
+                logistics)
+              </div>
+              <div class="detail-item">
+                <strong>Examples:</strong> SAP, Oracle ERP, Microsoft Dynamics
+              </div>
+              <div class="detail-item">
+                <strong>Key Features:</strong> Eliminate data silos, ensure
+                consistency, streamline operations
+              </div>
+            </div>
+          </div>
+
+          <div class="system-card" onclick="toggleSystem(this)">
+            <div class="system-header cyan">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+              <h3>Customer Relationship Management (CRM)</h3>
+              <span class="arrow">▼</span>
+            </div>
+            <p>Manage interactions and relationships with customers</p>
+            <div class="system-details">
+              <div class="detail-item">
+                <strong>Users:</strong> Sales, marketing, customer support teams
+              </div>
+              <div class="detail-item">
+                <strong>Examples:</strong> Salesforce, HubSpot, Zoho CRM
+              </div>
+              <div class="detail-item">
+                <strong>Key Features:</strong> Enhance customer experience,
+                improve retention, enable personalization
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card highlight-card blue" style="margin-top: 2rem">
+          <h3>System Hierarchy</h3>
+          <p>
+            Each system plays a unique role within an organization. Some focus
+            on operational efficiency (TPS, OAS), others target tactical
+            decision-making (MIS, DSS), while some support strategic planning
+            (ESS, ERP).
+          </p>
+          <p>
+            Understanding their distinctions and applications helps
+            organizations leverage the right tools to meet their goals more
+            effectively.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>Interactive guide to Data, Information, and Information Systems</p>
+        <p class="small">
+          Based on comprehensive research and industry best practices
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      function showTab(tabId) {
+        const tabs = document.querySelectorAll(".tab-content");
+        tabs.forEach((tab) => tab.classList.remove("active"));
+
+        const buttons = document.querySelectorAll(".tab-button");
+        buttons.forEach((btn) => btn.classList.remove("active"));
+
+        document.getElementById(tabId).classList.add("active");
+
+        event.target.classList.add("active");
+      }
+
+      function toggleSystem(element) {
+        element.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

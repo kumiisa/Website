@@ -32,7 +32,6 @@ html {
   padding: 0 2rem;
 }
 
-/* Navigation */
 .navbar {
   position: fixed;
   top: 0;
@@ -114,7 +113,6 @@ html {
   border-radius: 3px;
 }
 
-/* Hero Section */
 .hero {
   min-height: 100vh;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -215,7 +213,6 @@ html {
   }
 }
 
-/* Section Styles */
 section {
   padding: 6rem 0;
 }
@@ -242,7 +239,6 @@ section {
   margin: 0 auto 3rem;
 }
 
-/* CS Section */
 .cs-section {
   background: var(--light-bg);
 }
@@ -267,7 +263,6 @@ section {
   color: var(--text-dark);
 }
 
-/* Timeline */
 .timeline {
   position: relative;
   max-width: 800px;
@@ -326,7 +321,6 @@ section {
   margin-bottom: 0.5rem;
 }
 
-/* Info Grid */
 .info-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -365,7 +359,6 @@ section {
   margin-bottom: 1rem;
 }
 
-/* Conclusion Box */
 .conclusion-box {
   background: linear-gradient(
     135deg,
@@ -384,7 +377,6 @@ section {
   font-size: 2rem;
 }
 
-/* Majors Section */
 .majors-section {
   background: white;
 }
@@ -485,7 +477,6 @@ section {
   margin-top: 3rem;
 }
 
-/* Analysis Section */
 .analysis-section {
   background: var(--light-bg);
 }
@@ -559,7 +550,6 @@ section {
   color: #d97706;
 }
 
-/* About Section */
 .about-section {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
@@ -709,7 +699,6 @@ section {
   font-size: 0.9rem;
 }
 
-/* References Section */
 .references-section {
   background: var(--light-bg);
 }
@@ -737,7 +726,6 @@ section {
   color: var(--primary-color);
 }
 
-/* Scroll to Top */
 .scroll-top {
   position: fixed;
   bottom: 2rem;
@@ -768,7 +756,6 @@ section {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .hamburger {
     display: flex;

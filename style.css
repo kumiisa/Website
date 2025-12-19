@@ -289,13 +289,13 @@ main {
 
   main {
     display: flex;
-    align-items: center;
     height: 35vh;
 
     h2 {
       width: 50%;
-      font-weight: 400;
-      font-size: 2.5rem;
+      font-weight: 300;
+      font-size: 1.5rem;
+      left: -70px;
     }
   }
 

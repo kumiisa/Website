@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="port1.css" />
   </head>
   <body>
-    <!-- Navigation -->
     <nav class="navbar">
       <div class="nav-container">
         <div class="logo">IK</div>
@@ -27,7 +26,6 @@
       </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero" id="home">
       <div class="hero-content">
         <h1 class="glitch" data-text="Computer Science">Computer Science</h1>
@@ -44,7 +42,6 @@
       </div>
     </section>
 
-    <!-- Computer Science Section -->
     <section class="cs-section" id="about-cs">
       <div class="container">
         <h2 class="section-title">What is Computer Science?</h2>
@@ -126,7 +123,6 @@
       </div>
     </section>
 
-    <!-- 5 Computing Disciplines Section -->
     <section class="majors-section" id="majors">
       <div class="container">
         <h2 class="section-title">5 Computing Disciplines & Majors</h2>
@@ -253,7 +249,6 @@
       </div>
     </section>
 
-    <!-- Analysis Section -->
     <section class="analysis-section" id="analysis">
       <div class="container">
         <h2 class="section-title">Personal Analysis & Reflection</h2>
@@ -334,7 +329,6 @@
       </div>
     </section>
 
-    <!-- About Me Section -->
     <section class="about-section" id="about-me">
       <div class="container">
         <div class="about-header">
@@ -417,7 +411,6 @@
       </div>
     </section>
 
-    <!-- References Section -->
     <section class="references-section" id="references">
       <div class="container">
         <h2 class="section-title">References</h2>
@@ -468,11 +461,9 @@
       </div>
     </section>
 
-    <!-- Scroll to Top Button -->
     <button class="scroll-top" onclick="scrollToTop()">↑</button>
 
     <script>
-      // Mobile Menu Toggle
       const hamburger = document.querySelector(".hamburger");
       const navMenu = document.querySelector(".nav-menu");
 
@@ -481,7 +472,6 @@
         navMenu.classList.toggle("active");
       });
 
-      // Close menu when clicking on a link
       document.querySelectorAll(".nav-menu a").forEach((link) => {
         link.addEventListener("click", () => {
           hamburger.classList.remove("active");
@@ -489,7 +479,6 @@
         });
       });
 
-      // Smooth Scrolling
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", function (e) {
           e.preventDefault();
@@ -503,7 +492,6 @@
         });
       });
 
-      // Scroll to Top Button
       const scrollTopBtn = document.querySelector(".scroll-top");
       window.addEventListener("scroll", () => {
         if (window.pageYOffset > 300) {
@@ -520,7 +508,6 @@
         });
       }
 
-      // Navbar background on scroll
       const navbar = document.querySelector(".navbar");
       window.addEventListener("scroll", () => {
         if (window.scrollY > 50) {
@@ -530,7 +517,6 @@
         }
       });
 
-      // Intersection Observer for animations
       const observerOptions = {
         threshold: 0.1,
         rootMargin: "0px 0px -50px 0px",

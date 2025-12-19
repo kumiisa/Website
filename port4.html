@@ -353,7 +353,6 @@
     <div class="scroll-top" onclick="scrollToTop()">↑</div>
 
     <script>
-      // Smooth scrolling
       document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
         anchor.addEventListener("click", function (e) {
           e.preventDefault();
@@ -365,7 +364,6 @@
         });
       });
 
-      // Scroll to top button
       const scrollTopBtn = document.querySelector(".scroll-top");
       window.addEventListener("scroll", () => {
         if (window.pageYOffset > 300) {
@@ -382,7 +380,6 @@
         });
       }
 
-      // Add animation on scroll
       const observerOptions = {
         threshold: 0.1,
         rootMargin: "0px 0px -50px 0px",

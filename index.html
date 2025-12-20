@@ -3,24 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 767px)"
+      href="mobile.css"
+    />
   </head>
   <body>
-    <section class="hero">
+    <section class="hero" id="hero">
+      <div class="gradient bottom"></div>
       <nav>
         <ul>
-          <li><a href="#" class="logo">ISA</a></li>
+          <li><a href="javascript:void(0)" class="logo">ISA</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#">Education</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#about">Education</a></li>
+          <li><a href="#about">Contact</a></li>
         </ul>
       </nav>
 
       <div class="hero1">
         <video autoplay loop muted playsinline class="back-vid">
-          <source src="catbg.mp4" />
+          <source src="herovid final.mp4" />
         </video>
 
         <div class="photo"></div>
@@ -34,26 +44,6 @@
           </h2>
         </footer>
 
-        <div class="logo-slider">
-          <div class="logo-track">
-            <img src="logo1.png" alt="" />
-            <img src="logo2.png" alt="" />
-            <img src="logo3.png" alt="" />
-            <img src="logo4.png" alt="" />
-            <img src="logo5.png" alt="" />
-            <img src="logo6.png" alt="" />
-            <img src="logo7.png" alt="" />
-
-            <img src="logo1.png" alt="" />
-            <img src="logo2.png" alt="" />
-            <img src="logo3.png" alt="" />
-            <img src="logo4.png" alt="" />
-            <img src="logo5.png" alt="" />
-            <img src="logo6.png" alt="" />
-            <img src="logo7.png" alt="" />
-          </div>
-        </div>
-
         <div class="hero-name">
           <h1>
             Izabel <br />
@@ -64,6 +54,9 @@
     </section>
 
     <section class="page1" id="projects">
+      <div class="gradient top"></div>
+      <div class="gradient bottom"></div>
+
       <header>
         <h1>My Projects</h1>
       </header>
@@ -104,30 +97,109 @@
     </section>
 
     <section class="about" id="about">
+      <div class="gradient top"></div>
+      <div class="gradient bottom"></div>
       <header>
         <h1>about.</h1>
       </header>
 
       <main>
-        <h2>
-          Hello, I'm Izabel Karen A. Del Calzada, I am a 19 year old freshman in
-          University of San Carlos currently studying BS Information Technology.
-          Ever since I was 10, I was already exposed to computers and I got to
-          familiarize in using it as a tool to explore more in the Tech
-          Industry.
-        </h2>
-      </main>
+        <div class="text">
+          <h2>
+            Hello, I'm Izabel Karen A. Del Calzada, I am a 19 year old freshman
+            in University of San Carlos currently studying BS Information
+            Technology. Ever since I was 10, I was already exposed to computers
+            and I got to familiarize in using it as a tool to explore more in
+            the Tech Industry.
+          </h2>
+          <div class="table">
+            <div>Education <span class="line"></span></div>
+            <table>
+              <tr>
+                <td>College</td>
+                <td>University of San Carlos</td>
+                <td>Current</td>
+              </tr>
+              <tr>
+                <td>Senior Highschool</td>
+                <td>University of Cebu</td>
+                <td>2023 - 2025</td>
+              </tr>
+              <tr>
+                <td>Highschool</td>
+                <td>University of Cebu</td>
+                <td>2019 - 2023</td>
+              </tr>
+            </table>
 
-      <footer>
-        <h3>
-          I took BSIT because when I studied ICT in my senior high school, I got
-          to know a lot about the field and realized that I am definitely into
-          programming and also doing hands on in hardware servicing. I already
-          have experience in it because I got to study the same field for 2
-          years in my SHS so I think it makes me easier to learn a lot in
-          college.
-        </h3>
-      </footer>
+            <div class="carousel">
+              <div class="fade left"></div>
+              <div class="fade right"></div>
+              <div class="group">
+                <img src="logo1.png" alt="" />
+                <img src="logo2.png" alt="" />
+                <img src="logo3.png" alt="" />
+                <img src="logo4.png" alt="" />
+                <img src="logo5.png" alt="" />
+                <img src="logo6.png" alt="" />
+                <img src="logo7.png" alt="" />
+              </div>
+              <div class="group">
+                <img src="logo1.png" alt="" />
+                <img src="logo2.png" alt="" />
+                <img src="logo3.png" alt="" />
+                <img src="logo4.png" alt="" />
+                <img src="logo5.png" alt="" />
+                <img src="logo6.png" alt="" />
+                <img src="logo7.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="iza.jpeg" alt="" />
+      </main>
+    </section>
+
+    <section class="contact">
+      <div class="email">
+        <h1>+63 966 271 2706</h1>
+        <a href="mailto:izabeldelacalzada@gmail.com"
+          ><h2>izabeldelacalzada@gmail.com</h2></a
+        >
+      </div>
+
+      <nav class="nav">
+        <h3>Navigation</h3>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+
+      <nav>
+        <h3>Social Links</h3>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/isakumi.kiwi" target="_blank"
+              >Facebook
+              <span class="material-symbols-outlined">arrow_outward</span></a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com/kumiiisaa/" target="_blank"
+              >Instagram
+              <span class="material-symbols-outlined">arrow_outward</span></a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/kumiisa" target="_blank"
+              >Github
+              <span class="material-symbols-outlined">arrow_outward</span></a
+            >
+          </li>
+        </ul>
+      </nav>
     </section>
   </body>
 </html>

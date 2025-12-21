@@ -194,18 +194,19 @@ main {
   }
   .block {
     position: relative;
-    height: 40vh;
+    height: auto;
     border: 1px solid black;
     width: 500px;
     overflow: hidden;
     border-radius: 24px;
     background: #000;
+    height: 40vh;
 
     img {
-      aspect-ratio: 16/9;
-      height: 50vh;
+      object-position: top center;
       object-fit: cover;
-
+      position: relative;
+      width: 100%;
       transition: 0.3s ease;
     }
 
@@ -219,34 +220,6 @@ main {
       opacity: 0;
       transition: 0.3s ease;
     }
-  }
-
-  .port6 img {
-    position: absolute;
-    left: -80px;
-  }
-
-  .port2 img {
-    position: absolute;
-    left: -70px;
-  }
-
-  .port4 img {
-    position: absolute;
-    left: -70px;
-    top: -30px;
-  }
-
-  .port1 img {
-    position: absolute;
-    left: -70px;
-  }
-
-  .port5 img {
-    position: absolute;
-    left: -70px;
-    transform: scale(0.8);
-    top: -38px;
   }
 
   a:hover img {

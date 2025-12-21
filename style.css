@@ -156,6 +156,7 @@ body {
   padding: 2rem 5rem;
   position: relative;
   min-height: 100dvh;
+  overflow-x: hidden !important;
 
   .gradient {
     left: 0;
